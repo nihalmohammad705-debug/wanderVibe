@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WanderVibe - Discover Your Next Adventure</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/dark-mode.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">🌍</span>
+                <span class="logo-text">WanderVibe</span>
+            </div>
+
+            <nav id="navbar">
+                <a href="index.html" class="active">Home</a>
+                <a href="destinations.html">Destinations</a>
+                <a href="favorites.html">Favorites</a>
+                <a href="visited.html">Visited</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="header-controls">
+                <button id="search-toggle" aria-label="Search">🔍</button>
+                <button id="theme-toggle" aria-label="Toggle Theme">🌙</button>
+                <button id="menu-toggle" aria-label="Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- SEARCH OVERLAY -->
+    <div id="search-overlay">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search destinations by name, country, or category..." />
+            <button id="search-close">✕</button>
+        </div>
+        <div id="search-results"></div>
+    </div>
+
+    <!-- HOME SECTION -->
+    <section id="home">
+        <!-- Hero Slider -->
+        <div class="hero-slider">
+            <div class="slide active" data-index="0">
+                <div class="slide-bg" style="background-image: url('assets/images/hero1.jpg');"></div>
+                <div class="slide-content">
+                    <h1>Discover Your Next Adventure</h1>
+                    <p>Explore the most beautiful places on Earth</p>
+                    <a href="destinations.html" class="btn btn-primary">Start Exploring →</a>
+                </div>
+            </div>
+            <div class="slide" data-index="1">
+                <div class="slide-bg" style="background-image: url('assets/images/hero2.jpg');"></div>
+                <div class="slide-content">
+                    <h1>Wander Without Limits</h1>
+                    <p>Find hidden gems and popular hotspots</p>
+                    <a href="destinations.html" class="btn btn-primary">Explore Now →</a>
+                </div>
+            </div>
+            <div class="slide" data-index="2">
+                <div class="slide-bg" style="background-image: url('assets/images/hero3.jpg');"></div>
+                <div class="slide-content">
+                    <h1>Save Your Favorites</h1>
+                    <p>Plan your dream journey one place at a time</p>
+                    <a href="favorites.html" class="btn btn-primary">View Favorites →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-controls">
+            <button class="prev-slide">‹</button>
+            <div class="slider-dots"></div>
+            <button class="next-slide">›</button>
+        </div>
+
+        <!-- Quick Categories -->
+        <div class="quick-categories">
+            <div class="container">
+                <div class="category-grid">
+                    <a href="destinations.html?category=Beach" class="category-card">
+                        <span class="category-name">Beach</span>
+                        <span class="category-count">10 Places</span>
+                    </a>
+                    <a href="destinations.html?category=Adventure" class="category-card">
+                        <span class="category-name">Adventure</span>
+                        <span class="category-count">10 Places</span>
+                    </a>
+                    <a href="destinations.html?category=Cultural" class="category-card">
+                        <span class="category-name">Cultural</span>
+                        <span class="category-count">10 Places</span>
+                    </a>
+                    <a href="destinations.html?category=City" class="category-card">
+                        <span class="category-name">City</span>
+                        <span class="category-count">10 Places</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="50">0</span>
+                        <span class="stat-label">Destinations</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="25">0</span>
+                        <span class="stat-label">Countries</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="200">0</span>
+                        <span class="stat-label">Attractions</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="10000">0</span>
+                        <span class="stat-label">Happy Travelers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Destinations -->
+        <div class="featured-section">
+            <div class="container">
+                <div class="section-header">
+                    <p>Handpicked places you'll love</p>
+                </div>
+                <div id="featured-grid" class="destinations-grid"></div>
+                <div style="text-align:center;margin-top:30px;">
+                    <a href="destinations.html" class="btn btn-primary">View All 50+ Destinations →</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Why WanderVibe -->
+        <div class="why-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why WanderVibe?</h2>
+                    <p>Your ultimate travel companion</p>
+                </div>
+                <div class="why-grid">
+                    <div class="why-card">
+                        <h3>50+ Destinations</h3>
+                        <p>Explore curated places from around the world</p>
+                    </div>
+                    <div class="why-card">
+                        <h3>Save Favorites</h3>
+                        <p>Keep your dream destinations in one place</p>
+                    </div>
+                    <div class="why-card">
+                        <h3>Track Visited</h3>
+                        <p>Mark places you've been and track your journey</p>
+                    </div>
+                    <div class="why-card">
+                        <h3>Photo Galleries</h3>
+                        <p>Beautiful images for every destination</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">🌍</span>
+                    <span class="logo-text">WanderVibe</span>
+                    <p>Discover. Plan. Wander.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="destinations.html">Destinations</a>
+                    <a href="favorites.html">Favorites</a>
+                    <a href="visited.html">Visited</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Instagram">📸</a>
+                        <a href="#" aria-label="YouTube">▶️</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 WanderVibe. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="js/main.js"></script>
+    <script src="js/theme-switcher.js"></script>
+    <script src="js/destinations.js"></script>
+    <script src="js/image-slider.js"></script>
+    <script src="js/scroll-effects.js"></script>
+</body>
+</html>
