@@ -5,29 +5,29 @@
 
 A beautiful, interactive travel discovery platform built with pure HTML, CSS, and JavaScript. No frameworks, no libraries - just vanilla code!
 
-## 🌟 Live Demo
+## Live Demo
 
 [View Live Demo](https://wanderVibe.vercel.app)
 
 ---
 
-## 📋 Features
+## Features
 
-- 🏝️ **50+ Destinations** worldwide with detailed information
-- ❤️ **Save Favorites** with localStorage
-- ✅ **Mark Visited** places you've been
-- 🔍 **Search** destinations by name, country, or category
-- 🏷️ **Filter** by category (Beach, Adventure, Cultural, City)
-- 🌙 **Dark/Light Mode** toggle
-- 📱 **Fully Responsive** design
-- 📍 **Google Maps** links for every destination
-- 📸 **Photo Galleries** for each destination
-- 📝 **Detailed Pages** with full destination information
-- 📧 **Contact Form** with validation
+- **50+ Destinations** worldwide with detailed information
+- **Save Favorites** with localStorage
+- **Mark Visited** places you've been
+- **Search** destinations by name, country, or category
+- **Filter** by category (Beach, Adventure, Cultural, City)
+- **Dark/Light Mode** toggle
+- **Fully Responsive** design
+- **Google Maps** links for every destination
+- **Photo Galleries** for each destination
+- **Detailed Pages** with full destination information
+- **Contact Form** with validation
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -40,6 +40,7 @@ A beautiful, interactive travel discovery platform built with pure HTML, CSS, an
 ---
 
 ## 📁 Project Structure
+```bash
 wanderVibe/
 ├── index.html # Home page
 ├── destinations.html # All destinations
@@ -67,13 +68,12 @@ wanderVibe/
 ├── README.md
 ├── .gitignore
 └── vercel.json
-
-text
+```
 
 ---
 
-## 🚀 How to Run Locally
-
+## How to Run Locally
+```bash
 1. **Clone the repository**
    ```bash
    git clone https://github.com/yourusername/wanderVibe.git
@@ -85,9 +85,14 @@ Double-click any HTML file, or
 Use a live server (VS Code extension)
 
 Explore!
+```
 
-📝 License
+License
+
 MIT License
 
-👤 Author
-G Nihal
+Author
+
+G Nihal - https://github.com/nihalmohammad705-debug
+
+Tapu Das - https://github.com/Tapu965
