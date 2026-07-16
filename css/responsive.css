@@ -374,3 +374,231 @@
         height: 80px;
     }
 }
+
+/* DOCUMENTATION PAGE - RESPONSIVE OVERRIDES */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .doc-container {
+        padding: 20px 16px 30px;
+    }
+
+    .doc-hero h1 {
+        font-size: 30px;
+    }
+
+    .doc-section {
+        padding: 20px 18px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .doc-container {
+        padding: 16px 14px 24px;
+    }
+
+    .doc-hero {
+        padding: 20px 0 14px;
+        margin-bottom: 20px;
+    }
+
+    .doc-hero h1 {
+        font-size: 24px;
+    }
+
+    .doc-hero p {
+        font-size: 14px;
+    }
+
+    .doc-section {
+        padding: 16px 14px;
+        margin-bottom: 16px;
+        border-left-width: 3px;
+    }
+
+    .doc-section h2 {
+        font-size: 18px;
+    }
+
+    .doc-section h3 {
+        font-size: 15px;
+    }
+
+    .doc-section p,
+    .doc-section li {
+        font-size: 14px;
+    }
+
+    .doc-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .doc-card {
+        padding: 12px 14px;
+    }
+
+    .doc-table-wrapper {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .doc-table {
+        min-width: 480px;
+        font-size: 13px;
+    }
+
+    .doc-table th,
+    .doc-table td {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    .doc-links {
+        flex-direction: column;
+    }
+
+    .doc-links a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .doc-screenshot {
+        width: 100%;
+        height: auto;
+    }
+
+    .feedback-box {
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .doc-container {
+        padding: 12px 10px 20px;
+    }
+
+    .doc-hero h1 {
+        font-size: 20px;
+    }
+
+    .doc-hero p {
+        font-size: 12px;
+    }
+
+    .doc-section {
+        padding: 12px 12px;
+        margin-bottom: 12px;
+    }
+
+    .doc-section h2 {
+        font-size: 16px;
+    }
+
+    .doc-section h3 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .doc-section p,
+    .doc-section li {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+    .doc-section ul {
+        padding-left: 14px;
+    }
+
+    .doc-grid {
+        gap: 8px;
+    }
+
+    .doc-card {
+        padding: 10px 12px;
+    }
+
+    .doc-card h4 {
+        font-size: 13px;
+    }
+
+    .doc-card p {
+        font-size: 12px;
+    }
+
+    .doc-badge {
+        font-size: 11px;
+        padding: 3px 10px;
+    }
+
+    .doc-table {
+        min-width: 360px;
+        font-size: 11px;
+    }
+
+    .doc-table th,
+    .doc-table td {
+        padding: 4px 8px;
+        font-size: 11px;
+    }
+
+    .doc-table td ul li {
+        font-size: 11px;
+    }
+
+    .doc-links a {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+    .feedback-box {
+        padding: 10px 12px;
+        font-size: 13px;
+        line-height: 1.6;
+        border-left-width: 3px;
+    }
+}
+
+/* Very Small Mobile */
+@media (max-width: 360px) {
+    .doc-container {
+        padding: 8px 6px 16px;
+    }
+
+    .doc-hero h1 {
+        font-size: 17px;
+    }
+
+    .doc-section {
+        padding: 10px 8px;
+        margin-bottom: 10px;
+    }
+
+    .doc-section h2 {
+        font-size: 14px;
+    }
+
+    .doc-section p,
+    .doc-section li {
+        font-size: 12px;
+    }
+
+    .doc-table {
+        min-width: 300px;
+        font-size: 10px;
+    }
+
+    .doc-table th,
+    .doc-table td {
+        padding: 3px 6px;
+        font-size: 10px;
+    }
+
+    .doc-links a {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+}

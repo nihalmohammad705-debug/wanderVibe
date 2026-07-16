@@ -1620,48 +1620,6 @@ footer {
     margin: 4px 0;
 }
 
-.doc-screenshot-placeholder-home {
-    width: 100%;
-    height: 285px;
-    background: var(--bg-alt);
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    color: var(--text-light);
-    border: 2px dashed var(--light);
-    margin: 8px 0;
-}
-
-.doc-screenshot-placeholder-dest-detail {
-    width: 100%; 
-    height: 445px;
-    background: var(--bg-alt);
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    color: var(--text-light);
-    border: 2px dashed var(--light);
-    margin: 8px 0;
-}
-
-.doc-screenshot-placeholder {
-    width: 100%;
-    height: 355px;
-    background: var(--bg-alt);
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 14px;
-    color: var(--text-light);
-    border: 2px dashed var(--light);
-    margin: 8px 0;
-}
-
 .feedback-box {
     background: var(--bg-alt);
     padding: 16px 20px;
@@ -1764,4 +1722,84 @@ footer {
 @keyframes loadProgress {
     0% { width: 0%; }
     100% { width: 100%; }
+}
+
+/* ===== MOBILE GALLERY ===== */
+.mobile-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 12px 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.mobile-screenshot {
+    width: 180px;
+    height: auto;
+    border-radius: 12px;
+    border: 2px solid var(--light);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    object-fit: contain;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    display: block;
+    flex-shrink: 0;
+}
+
+.mobile-screenshot:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* ===== RESPONSIVE - Mobile Gallery ===== */
+/* Tablets */
+@media (max-width: 1024px) {
+    .mobile-gallery {
+        gap: 14px;
+    }
+
+    .mobile-screenshot {
+        width: 160px;
+        border-radius: 10px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .mobile-gallery {
+        gap: 12px;
+    }
+
+    .mobile-screenshot {
+        width: 140px;
+        border-radius: 8px;
+        border-width: 1.5px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+    .mobile-gallery {
+        gap: 10px;
+    }
+
+    .mobile-screenshot {
+        width: 100px;
+        border-radius: 6px;
+        border-width: 1.5px;
+    }
+}
+
+/* Very Small Mobile */
+@media (max-width: 360px) {
+    .mobile-gallery {
+        gap: 8px;
+    }
+
+    .mobile-screenshot {
+        width: 75px;
+        border-radius: 4px;
+        border-width: 1px;
+    }
 }
