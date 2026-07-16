@@ -10,11 +10,10 @@
 </head>
 <body>
 
-    <!-- HEADER -->
+    <!-- ===== HEADER ===== -->
     <header id="header">
         <div class="container">
-            <div class="logo">
-                <span class="logo-icon">🌍</span>
+            <div class="logo" id="site-logo">
                 <span class="logo-text">WanderVibe</span>
             </div>
 
@@ -34,67 +33,103 @@
         </div>
     </header>
 
-    <!-- ABOUT -->
+    <!-- ===== ABOUT SECTION ===== -->
     <section id="about-page">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-content">
-                    <h2>About WanderVibe</h2>
-                    <p>WanderVibe was created with a simple mission: to help travelers discover the most beautiful places on Earth.</p>
-                    <p>With <strong>50+ destinations</strong>, detailed travel guides, interactive features, and a vibrant community, we make travel planning easy, fun, and inspiring.</p>
-                    <p>Whether you're planning your next vacation or just dreaming of faraway lands, WanderVibe is your gateway to adventure.</p>
-                    <div class="about-stats">
-                        <div><span>50+</span> Destinations</div>
-                        <div><span>25</span> Countries</div>
-                        <div><span>200+</span> Attractions</div>
-                        <div><span>10000+</span> Happy Travelers</div>
+        <div class="container-full">
+
+            <!-- Hero -->
+            <div class="about-hero">
+                <h1>About WanderVibe</h1>
+                <p>Your gateway to discovering the world's most beautiful places</p>
+            </div>
+
+            <!-- Mission & Content - Full Width -->
+            <div class="about-content-full">
+                <h2>Our Mission</h2>
+                <p>WanderVibe was created with a simple mission: to help travelers discover the most beautiful places on Earth. We believe that everyone deserves to experience the joy of travel, whether it's a weekend getaway or a once-in-a-lifetime adventure.</p>
+
+                <h2 style="margin-top:30px;">What We Offer</h2>
+                <div class="about-features-full">
+                    <div class="about-feature">
+                        <div>
+                            <h4>50+ Destinations</h4>
+                            <p>Carefully curated places from around the world</p>
+                        </div>
+                    </div>
+                    <div class="about-feature">
+                        <div>
+                            <h4>Photo Galleries</h4>
+                            <p>Beautiful images for every destination</p>
+                        </div>
+                    </div>
+                    <div class="about-feature">
+                        <div>
+                            <h4>Save Favorites</h4>
+                            <p>Keep your dream destinations in one place</p>
+                        </div>
+                    </div>
+                    <div class="about-feature">
+                        <div>
+                            <h4>Track Visited</h4>
+                            <p>Mark places you've been and track your journey</p>
+                        </div>
                     </div>
                 </div>
-                <div class="about-image">
-                    <div class="about-image-placeholder">🌍</div>
+
+                <div class="about-stats-full">
+                    <div><span>50+</span> Destinations</div>
+                    <div><span>25</span> Countries</div>
+                    <div><span>200+</span> Attractions</div>
+                    <div><span>10000+</span> Happy Travelers</div>
                 </div>
             </div>
+
+            <!-- Team Section -->
+            <div class="team-section">
+                <h2>Built With Love</h2>
+                <p>This project was created for the Frontend Web Development Competition 2026</p>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-avatar">👨‍💻</div>
+                        <h4>G Nihal</h4>
+                        <p>Developer</p>
+                        <a href="https://github.com/nihalmohammad705-debug" target="_blank" class="team-link">View GitHub →</a>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-avatar">👨‍💻</div>
+                        <h4>Tapu Das</h4>
+                        <p>Developer</p>
+                        <a href="https://github.com/Tapu965" target="_blank" class="team-link">View GitHub →</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technologies -->
+            <div class="tech-section">
+                <h2>Built With</h2>
+                <div class="tech-grid">
+                    <span class="tech-badge">HTML5</span>
+                    <span class="tech-badge">CSS3</span>
+                    <span class="tech-badge">JavaScript</span>
+                    <span class="tech-badge">Local Storage</span>
+                    <span class="tech-badge">Responsive Design</span>
+                    <span class="tech-badge">Dark Mode</span>
+                </div>
+                <p class="tech-note">No frameworks or libraries used</p>
+            </div>
+
         </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <span class="logo-icon">🌍</span>
-                    <span class="logo-text">WanderVibe</span>
-                    <p>Discover. Plan. Wander.</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <a href="index.html">Home</a>
-                    <a href="destinations.html">Destinations</a>
-                    <a href="favorites.html">Favorites</a>
-                    <a href="visited.html">Visited</a>
-                    <a href="about.html">About</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-                <div class="footer-social">
-                    <h4>Follow Us</h4>
-                    <div class="social-icons">
-                        <a href="#" aria-label="Facebook">📘</a>
-                        <a href="#" aria-label="Twitter">🐦</a>
-                        <a href="#" aria-label="Instagram">📸</a>
-                        <a href="#" aria-label="YouTube">▶️</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 WanderVibe. All rights reserved. Built with ❤️</p>
-            </div>
-        </div>
-    </footer>
+    <!-- ===== FOOTER PLACEHOLDER ===== -->
+    <div id="footer-placeholder"></div>
 
     <button id="back-to-top" aria-label="Back to top">↑</button>
 
+    <!-- ===== JAVASCRIPT ===== -->
     <script src="js/main.js"></script>
     <script src="js/theme-switcher.js"></script>
+    <script src="js/footer.js"></script>
 
 </body>
 </html>
