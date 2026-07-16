@@ -370,30 +370,6 @@ const destinations = [
 
     // CITY DESTINATIONS
     {
-        id: 16,
-        name: "Prague",
-        country: "Czech Republic",
-        category: "City",
-        rating: 4.6,
-        reviews: 2700,
-        heroImage: "prague-hero.jpg",
-        gallery: ["prague1.jpg", "prague2.jpg", "prague3.jpg", "prague4.jpg"],
-        description: "Fairytale city with Gothic architecture, medieval bridges, and world-class beer.",
-        fullDescription: "Prague is the capital of the Czech Republic and is known for its medieval architecture, Charles Bridge, and vibrant culture.",
-        bestTime: "April to October",
-        weather: "Mild summers and cold winters",
-        language: "Czech",
-        currency: "Czech Koruna (CZK)",
-        timezone: "UTC+1",
-        howToReach: { byAir: "Václav Havel Airport Prague (PRG)", byTrain: "Railway from Berlin", localTransport: "Trams, metro" },
-        costGuide: { budget: "€50-80/day", midRange: "€100-180/day", luxury: "€250+/day" },
-        attractions: ["Charles Bridge", "Prague Castle", "Old Town Square", "St. Vitus Cathedral"],
-        food: ["Trdelník", "Goulash", "Dumplings", "Czech Beer"],
-        tips: ["Use public transport", "Try local beer halls", "Visit castle at sunset"],
-        nearby: ["Berlin", "Vienna", "Budapest"],
-        mapLink: "https://www.google.com/maps/search/Prague+Czech+Republic"
-    },
-    {
         id: 17,
         name: "Rio de Janeiro",
         country: "Brazil",

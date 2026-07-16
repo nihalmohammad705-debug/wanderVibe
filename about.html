@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/dark-mode.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="icon" type="image/png" href="assets/images/wandervibelogo.png" />
 </head>
 <body>
 
-    <!-- ===== HEADER ===== -->
+    <!-- HEADER -->
     <header id="header">
         <div class="container">
             <div class="logo" id="site-logo">
@@ -23,6 +24,7 @@
                 <a href="favorites.html">Favorites</a>
                 <a href="visited.html">Visited</a>
                 <a href="about.html" class="active">About</a>
+                <a href="documentation.html">Documentation</a>
                 <a href="contact.html">Contact</a>
             </nav>
 
@@ -33,7 +35,16 @@
         </div>
     </header>
 
-    <!-- ===== ABOUT SECTION ===== -->
+    <!-- LOADING SCREEN -->
+    <div id="loader">
+        <div class="loader-content">
+            <img src="assets/images/wandervibelogo.png" alt="WanderVibe" style="height:170px;width:auto;margin-bottom:3px;" />
+            <div class="loader-text">WanderVibe</div>
+            <div class="loader-bar"><div class="loader-progress"></div></div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
     <section id="about-page">
         <div class="container-full">
 
@@ -121,12 +132,12 @@
         </div>
     </section>
 
-    <!-- ===== FOOTER PLACEHOLDER ===== -->
+    <!-- FOOTER-->
     <div id="footer-placeholder"></div>
 
     <button id="back-to-top" aria-label="Back to top">↑</button>
 
-    <!-- ===== JAVASCRIPT ===== -->
+    <!-- JAVASCRIPT -->
     <script src="js/main.js"></script>
     <script src="js/theme-switcher.js"></script>
     <script src="js/footer.js"></script>

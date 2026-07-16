@@ -42,29 +42,31 @@ A beautiful, interactive travel discovery platform built with pure HTML, CSS, an
 ## 📁 Project Structure
 ```bash
 wanderVibe/
-├── index.html # Home page
-├── destinations.html # All destinations
-├── destination.html # Individual destination page
-├── favorites.html # Saved favorites
-├── visited.html # Visited places
-├── about.html # About page
-├── contact.html # Contact page
+├── index.html             # Home page
+├── destinations.html      # All destinations
+├── destination.html       # Individual destination page
+├── documentation.html     # Project Documentation page
+├── favorites.html         # Saved favorites
+├── visited.html           # Visited places
+├── about.html             # About page
+├── contact.html           # Contact page
 ├── css/
-│ ├── style.css # Main styles
-│ ├── dark-mode.css # Dark theme styles
-│ └── responsive.css # Media queries
+│ ├── style.css            # Main styles
+│ ├── dark-mode.css        # Dark theme styles
+│ └── responsive.css       # Media queries
 ├── js/
-│ ├── main.js # Core functionality
-│ ├── theme-switcher.js # Dark/Light toggle
-│ ├── destinations.js # Destinations data & logic
-│ ├── destination.js # Individual destination page
-│ ├── favorites.js # Favorites page
-│ ├── visited.js # Visited page
-│ ├── image-slider.js # Hero slider
-│ ├── form-validation.js # Contact form
-│ └── scroll-effects.js # Scroll animations
+│ ├── main.js              # Core functionality
+│ ├── theme-switcher.js    # Dark/Light toggle
+│ ├── destinations.js      # Destinations data & logic
+│ ├── destination.js       # Individual destination page
+│ ├── favorites.js         # Favorites page
+│ ├── footer.js            # Footer page
+│ ├── visited.js           # Visited page
+│ ├── image-slider.js      # Hero slider
+│ ├── form-validation.js   # Contact form
+│ └── scroll-effects.js    # Scroll animations
 ├── assets/
-│ └── images/ # All image files
+│ └── images/              # All image files
 ├── README.md
 ├── .gitignore
 └── vercel.json
@@ -87,11 +89,11 @@ Use a live server (VS Code extension)
 Explore!
 ```
 
-License
+**License :**
 
 MIT License
 
-Author
+**Author :**
 
 G Nihal - https://github.com/nihalmohammad705-debug
 

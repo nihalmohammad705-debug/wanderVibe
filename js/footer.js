@@ -9,9 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="container">
                 <div class="footer-content">
                     <div class="footer-brand">
-                        <img src="assets/images/logo.png" alt="WanderVibe" style="height:40px;width:auto;margin-bottom:8px;" onerror="this.style.display='none';this.parentElement.innerHTML='<span style=\\'font-size:28px;font-weight:800;color:var(--primary);\\'>🌍 WanderVibe</span>'">
-                        <p>Discover. Plan. Wander.</p>
-                        <p style="font-size:13px;opacity:0.5;margin-top:4px;">Built for Frontend Web Development Competition 2026</p>
+                        <span class="logo-text" style="height:32px;width:auto;margin-bottom:6px;color:#6C5CE7">WanderVibe</span>
+                        <p style="font-size:13px;opacity:0.6;">A travel discovery platform</p>
                     </div>
 
                     <div class="footer-links">

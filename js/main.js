@@ -18,6 +18,16 @@ document.querySelectorAll('#navbar a').forEach(link => {
     });
 });
 
+// LOADING SCREEN
+document.addEventListener('DOMContentLoaded', function() {
+    const loader = document.getElementById('loader');
+    if (loader) {
+        setTimeout(() => {
+            loader.classList.add('hide');
+        }, 500);
+    }
+});
+
 // STICKY HEADER
 const header = document.getElementById('header');
 
