@@ -64,6 +64,29 @@ if (contactForm) {
     });
 }
 
+function showSubmissions() {
+    const submissions = JSON.parse(localStorage.getItem('wanderVibe_contacts')) || [];
+    if (submissions.length === 0) {
+        alert('No submissions yet.');
+        return;
+    }
+    let message = '📩 Contact Form Submissions:\n\n';
+    submissions.forEach((s, i) => {
+        message += `${i+1}. ${s.name} (${s.email})\n`;
+        message += `   Subject: ${s.subject}\n`;
+        message += `   Message: ${s.message}\n`;
+        message += `   Date: ${new Date(s.date).toLocaleString()}\n\n`;
+    });
+    alert(message);
+}
+
+// Call this function by pressing a secret key combo(ctrl+shift+s)
+document.addEventListener('keydown', (e) => {
+    if (e.ctrlKey && e.shiftKey && e.key === 'S') {
+        showSubmissions();
+    }
+});
+
 function showError(message) {
     formError.textContent = message;
     formError.style.display = 'block';
