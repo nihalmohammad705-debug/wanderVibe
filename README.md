@@ -76,17 +76,27 @@ wanderVibe/
 
 ## How to Run Locally
 ```bash
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/wanderVibe.git
-   cd wanderVibe
-Open in browser
+1. Clone the repository:
+    git clone https://github.com/yourusername/wanderVibe.git
+    cd wanderVibe
 
-Double-click any HTML file, or
+    Open in browser
+    Double-click any HTML file, or
+    Use a live server (VS Code extension)
+    Explore!
+```
 
-Use a live server (VS Code extension)
+## Deploy On Vercel
+```bash
+1. Push your code to GitHub:
+    git add .
+    git commit -m "Deploy to Vercel"
+    git push
 
-Explore!
+2. Go to vercel.com:
+    Click "Add New Project"
+    Import your GitHub repository
+    Click "Deploy" 
 ```
 
 **License :**
