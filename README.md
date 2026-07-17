@@ -3,7 +3,7 @@
 [![Vercel](https://img.shields.io/badge/vercel-deployed-success)](https://wanderVibe.vercel.app)
 [![GitHub](https://img.shields.io/badge/github-public-blue)](https://github.com/yourusername/wanderVibe)
 
-A beautiful, interactive travel discovery platform built with pure HTML, CSS, and JavaScript. No frameworks, no libraries - just vanilla code!
+A beautiful, interactive travel discovery platform built with pure HTML, CSS, and JavaScript.
 
 ## Live Demo
 
