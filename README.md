@@ -1,4 +1,4 @@
-# 🌍 WanderVibe - Discover Your Next Adventure
+# WanderVibe - Discover Your Next Adventure
 
 [![Vercel](https://img.shields.io/badge/vercel-deployed-success)](https://wanderVibe.vercel.app)
 [![GitHub](https://img.shields.io/badge/github-public-blue)](https://github.com/yourusername/wanderVibe)
